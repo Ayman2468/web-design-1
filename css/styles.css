@@ -1,0 +1,786 @@
+:root {
+    --main-color: #ffcb0f;
+    --main-text-color: #ffffff;
+    --first-secondary-text-color: #222222;
+    --second-secondary-text-color: #b7b7b7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--main-text-color);
+}
+
+header {
+    background-color: #282828;
+    background-image: url(../Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.contactbar {
+    background-color: var(--main-color);
+    color: var(--first-secondary-text-color);
+}
+
+.contactbar label {
+    font-size: 25px;
+    display: block;
+    margin: 0px 17px 0px;
+    padding: 5px 0px;
+}
+
+.contactbar label i {
+    padding: 8px 15px;
+    border: thin solid;
+    border-radius: 5px;
+    color: rgb(154, 157, 160);
+}
+
+.contactbar label span {
+    font-size: 20px;
+}
+
+.contactbar input {
+    display: none;
+}
+
+.contactbar input:checked~div {
+    display: block;
+}
+
+.contactbar .one,
+.contactbar .two {
+    display: none;
+}
+
+.navbar .container-fluid {
+    display: block;
+}
+
+.contactbar .one span {
+    display: block;
+    margin: 10px 0px;
+    padding: 0px 69px;
+    font-size: 14px;
+    border-bottom: 2px solid;
+    text-align: justify;
+}
+
+.contactbar .one span i {
+    margin-right: 10px;
+}
+
+.contactbar .one span a {
+    color: var(--first-secondary-text-color);
+}
+
+.contactbar .one span a:visited {
+    color: var(--first-secondary-text-color);
+}
+
+.contactbar .two {
+    padding: 10px 36px;
+}
+
+.contactbar .two a {
+    color: var(--first-secondary-text-color);
+    margin: 0px 10px;
+}
+
+.collapse {
+    background-color: var(--first-secondary-text-color);
+}
+
+.logo h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--main-text-color);
+    padding-top: 15px;
+}
+
+.logo h2 span {
+    color: var(--main-color);
+}
+
+.logo p {
+    color: var(--second-secondary-text-color);
+    font-size: 12px;
+}
+
+.collapse div a {
+    font-size: 14px;
+    display: block;
+    padding: 10px 0px;
+}
+
+.collapse div a:visited {
+    color: var(--main-text-color);
+}
+
+.collapse div i {
+    color: var(--main-color);
+}
+
+.navbar {
+    color: var(--main-text-color);
+}
+
+.navbar-dark .navbar-toggler {
+    margin-right: 10px;
+}
+
+header article {
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+header article p:first-of-type {
+    margin: 0;
+    padding: 30px 0px 10px;
+    font-size: 18px;
+}
+
+header article h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+header article h1 span {
+    color: var(--main-color);
+}
+
+header article p:last-of-type {
+    font-size: 14px;
+    text-align: justify;
+    margin: 10px auto 30px;
+    width: 70%;
+}
+
+header article div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header article div a {
+    background-color: #000000;
+    color: var(--main-color);
+    border: thin solid var(--main-color);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px;
+    margin: 0px 25px 15px
+}
+
+.sec1 {
+    background-color: var(--main-text-color);
+    background-image: url(../Images/img1.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 0px 0px 490px;
+}
+
+.sec1 article h3 {
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--main-color);
+    margin-top: 15px;
+}
+
+.sec1 article h3 span {
+    color: var(--first-secondary-text-color);
+}
+
+.sec1 article p {
+    color: var(--first-secondary-text-color);
+}
+
+.sec1 article a {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+}
+
+.sec2 {
+    background-image: url(../Images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headarticle h3 {
+    padding: 50px 0px 15px;
+    color: var(--main-color);
+    font-weight: 800;
+}
+
+.headarticle p {
+    width: 70%;
+    margin: 0px auto 50px;
+    color: var(--main-text-color);
+}
+
+.card {
+    border: none;
+}
+
+.sec2 .cardsdiv .cardo {
+    margin: 0px auto;
+}
+
+.sec2 .cardsdiv .img {
+    border-radius: 50%;
+    background: var(--main-color);
+    height: 142px;
+    width: 142px;
+    position: relative;
+    margin-left: 71px;
+    z-index: 1;
+}
+
+.sec2 .cardsdiv .img img {
+    width: 71px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    filter: brightness(0);
+}
+
+.sec2 .cardsdiv .card-body {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    position: relative;
+    bottom: 70px;
+    z-index: 0;
+}
+
+.sec2 .cardsdiv h5 {
+    margin: 75px 0px 25px;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--main-color);
+}
+
+.sec2 .cardsdiv p {
+    font-size: 14px;
+}
+
+.sec3 h3 {
+    font-weight: 800;
+    color: var(--first-secondary-text-color);
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.sec3 .card {
+    margin: 20px 0px;
+}
+
+.sec3 .card .card-body {
+    padding: 20px 0px;
+}
+
+.sec3 .card .card-body .shade {
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+    bottom: 64px;
+    width: 288px;
+}
+
+.sec3 .card .card-body .shade h5 {
+    color: var(--main-text-color);
+    padding: 10px 12px;
+    margin: 0;
+}
+
+.sec3 .card .card-body .btn-primary {
+    background-color: var(--main-color);
+    border: none;
+}
+
+.sec4 {
+    background: linear-gradient(rgba(98, 98, 98, 0.8), rgba(98, 98, 98, 0.8)), url(../Images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec4 .headarticle h3 {
+    color: var(--main-text-color);
+}
+
+.sec4 .linkswitch {
+    margin-bottom: 22px;
+}
+
+.sec4 .linkswitch a {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.sec4 .linkswitch a:hover {
+    background-color: rgba(28, 28, 28, .7);
+}
+
+.sec4 .gallery {
+    padding-bottom: 20px;
+}
+
+.sec4 .gallery img {
+    width: 290px;
+    margin: 0px 0px 10px;
+}
+
+.sec5 {
+    background-image: url(../Images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sec5 .headarticle h3 {
+    color: var(--first-secondary-text-color);
+}
+
+.sec5 .headarticle p {
+    color: var(--first-secondary-text-color);
+}
+
+.sec5 .art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec5 .art .op {
+    width: 310px;
+    text-align: justify;
+}
+
+.sec5 .art .op p {
+    padding: 40px 15px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: 8px 35px;
+}
+
+.sec5 .art .op:first-child p,
+.sec5 .art .op:last-child p {
+    background-color: #e5e5e5;
+    background-image: url(../Images/blockquote2.png);
+}
+
+.sec5 .art .op:nth-child(2) p {
+    background-color: var(--main-color);
+    background-image: url(../Images/blockquote1.png);
+}
+
+.sec5 .art .op>img {
+    position: relative;
+    bottom: 23px;
+    left: 145px;
+}
+
+.sec5 .art .op .openion {
+    position: relative;
+    left: 120px;
+    bottom: 15px;
+    width: 100px;
+}
+
+.sec5 .art .op .openion img {
+    width: 90px;
+    border-radius: 56%;
+}
+
+.sec5 .art .op .openion h6 {
+    margin: 10px 0px 10px -10px;
+    font-weight: 800;
+    color: var(--first-secondary-text-color);
+}
+
+.sec5 .foot {
+    background-color: var(--main-color);
+    padding: 20px 0px;
+    opacity: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec5 .foot:focus-within {
+    opacity: 100%;
+}
+
+.sec5 .foot h2 {
+    text-align: center;
+}
+
+.sec5 .foot h2 span {
+    font-weight: 800;
+}
+
+.sec5 .foot form input {
+    border: none;
+    border-radius: 5px;
+    text-indent: 10px;
+    height: 45px;
+    margin: 5px;
+}
+
+.sec5 .foot form input:last-child {
+    display: block;
+    text-indent: initial;
+    color: var(--main-text-color);
+    width: 102px;
+    background-color: var(--first-secondary-text-color);
+}
+
+.bar {
+    height: 45px;
+    background-color: #676972;
+}
+
+footer {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(8, 6, 6, 0.8)), url(../Images/London.png);
+    background-position: center;
+    background-size: cover;
+    color: var(--main-text-color);
+    padding: 20px 0px 1px;
+}
+
+footer div {
+    margin: 20px 0px;
+}
+
+footer .cl1 p {
+    width: 290px;
+}
+
+footer .cl1 .contact a {
+    color: var(--first-secondary-text-color);
+    background-color: var(--main-color);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+footer .cl1 .contact a:first-child,
+footer .cl1 .contact a:nth-child(5) {
+    padding: 14px 17px;
+}
+
+footer .cl2 ul {
+    list-style: inside;
+    list-style-type: disclosure-closed;
+}
+
+footer .cl2 ul li {
+    margin: 10px 0px;
+}
+
+footer .cl3 p i {
+    font-size: 45px;
+    position: relative;
+    top: 12px;
+}
+
+footer .cl3 p span {
+    font-size: 15px;
+    position: relative;
+    bottom: 19px;
+    right: 31px;
+}
+
+footer .cl3 p sub {
+    position: relative;
+    top: 11px;
+    right: 20px;
+}
+
+footer .cl4 i {
+    position: relative;
+    top: 24px;
+}
+
+footer .cl4 p {
+    margin-left: 30px;
+}
+
+.last {
+    background-color: var(--first-secondary-text-color);
+    color: var(--main-text-color);
+    height: 50px;
+}
+
+.last p {
+    text-align: center;
+}
+
+.last p span {
+    color: var(--main-color);
+    display: block;
+}
+
+@media (min-width:576px) {
+    .sec5 .foot form {
+        width: 425px;
+    }
+
+    .sec5 .foot form input:first-child,
+    .sec5 .foot form input:nth-child(2) {
+        width: 200px;
+    }
+
+    .sec5 .foot form input:nth-child(3) {
+        width: 297px;
+    }
+
+    .sec5 .foot form input:last-child {
+        display: initial;
+    }
+
+    .last p {
+        padding-top: 15px;
+    }
+
+    .last p span {
+        display: inline;
+    }
+}
+
+@media (min-width:768px) {
+    .contactbar label {
+        display: none;
+    }
+
+    .contactbar .one,
+    .contactbar .two {
+        display: inline;
+    }
+
+    .contactbar .two {
+        float: right;
+    }
+
+    .contactbar .one span {
+        display: inline;
+        border: none;
+        padding: 0px 5px 0px 0px;
+    }
+
+    .contactbar .one span i {
+        margin-right: 2px;
+    }
+
+    .contactbar .two {
+        padding: 0px;
+    }
+
+    .contactbar .two a {
+        margin: 0px 7px;
+    }
+
+    .collapse div a {
+        display: inline;
+        padding: 10px;
+    }
+
+    header {
+        background-position: center left;
+        height: 100vh;
+    }
+
+    .three {
+        clear: both;
+    }
+
+    header article p:first-of-type {
+        padding: 30px 0px;
+    }
+
+    header article h1 {
+        margin: 25px 0px;
+    }
+
+    header article p:last-of-type {
+        margin: 10px auto 50px
+    }
+
+    .sec1 {
+        background-position: right top;
+        padding: 0px 0px 174px;
+    }
+
+    .sec1 article {
+        position: relative;
+        top: 80px;
+    }
+
+    .sec4 .gallery img {
+        width: auto;
+        margin: 0px 0px 10px;
+    }
+
+    .sec4 .gallery div:first-of-type img {
+        width: 584px;
+    }
+
+    footer .container-fluid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer .container-fluid>div {
+        margin-right: 85px;
+    }
+}
+
+@media (min-width:992px) {
+    .sec1 {
+        padding: 0px 0px 222px;
+    }
+
+    .sec2 .cardsdiv .cardo {
+        margin: 0px 71px;
+    }
+
+    .sec3 .card {
+        margin: 20px 15px;
+    }
+
+    .sec3 .card .card-body .shade {
+        width: auto;
+    }
+
+    .sec4 .gallery div:last-of-type {
+        padding: 10px;
+    }
+
+    .sec4 .linkswitch a {
+        font-size: 20px;
+    }
+
+    footer .container-fluid>div {
+        margin-right: 174px;
+    }
+}
+
+@media (min-width:1200px) {
+    .contactbar .one span i {
+        font-size: 22px;
+    }
+
+    .contactbar .one span {
+        font-size: 18px;
+    }
+
+    .contactbar .two a {
+        margin: 0px 10px;
+        font-size: 20px;
+    }
+
+    .collapse div h2 {
+        font-size: 25px;
+    }
+
+    .collapse div p {
+        font-size: 14px;
+    }
+
+    .collapse div a {
+        font-size: 18px;
+    }
+
+    .collapse div i {
+        font-size: 20px;
+    }
+
+    header article p:first-of-type {
+        font-size: 22px
+    }
+
+    header article h1 {
+        font-size: 32px;
+    }
+
+    header article p:last-of-type {
+        font-size: 20px;
+    }
+
+    .sec1 {
+        padding: 0px 0px 141px;
+        width: 1150px;
+        margin-left: 50px;
+    }
+
+    .sec1 article h3 {
+        font-size: 28px;
+    }
+
+    .sec1 article p {
+        font-size: 22px;
+    }
+
+    .sec1 article a {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    .sec4 .gallery img {
+        width: 259px;
+        margin: 0px 5px 9px;
+    }
+
+    .sec4 .gallery div:first-of-type img {
+        width: 495px;
+        margin-right: 7px;
+    }
+
+    .sec4 .gallery div:last-of-type {
+        padding: 0px;
+    }
+
+    .sec5 {
+        background-position: initial;
+    }
+
+    footer .container-fluid {
+        justify-content: space-around;
+    }
+
+    footer .container-fluid>div {
+        margin-right: 0px;
+    }
+}
+
+@media (min-width:1350px) {
+    .sec2 .cardsdiv .cardo {
+        margin: 0px
+    }
+}
